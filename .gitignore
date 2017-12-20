@@ -5,6 +5,9 @@
 ## Build generated
 build/
 DerivedData/
+BurnerSDK.framework/
+BurnerSDK.framework*
+
 
 ## Various settings
 *.pbxuser
