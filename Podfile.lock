@@ -1,0 +1,21 @@
+PODS:
+  - BurnerSDK (0.5.0)
+
+DEPENDENCIES:
+  - BurnerSDK (from `https://github.com/adhoclabs/iOS-SDK.git`)
+
+EXTERNAL SOURCES:
+  BurnerSDK:
+    :git: https://github.com/adhoclabs/iOS-SDK.git
+
+CHECKOUT OPTIONS:
+  BurnerSDK:
+    :commit: a187c4156a39de9fa9a438d6a467c1f936712883
+    :git: https://github.com/adhoclabs/iOS-SDK.git
+
+SPEC CHECKSUMS:
+  BurnerSDK: 39ff1d666b1db3d4fa1707f45d859bf4c2c6dcb9
+
+PODFILE CHECKSUM: f3521f7e5284f3a200fe7bf47d6119430c995829
+
+COCOAPODS: 1.5.3

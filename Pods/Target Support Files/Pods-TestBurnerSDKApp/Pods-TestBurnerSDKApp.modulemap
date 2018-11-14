@@ -1,0 +1,6 @@
+framework module Pods_TestBurnerSDKApp {
+  umbrella header "Pods-TestBurnerSDKApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

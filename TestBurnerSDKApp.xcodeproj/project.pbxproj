@@ -12,8 +12,7 @@
 		8A570A681FEACDF300287812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A661FEACDF300287812 /* Main.storyboard */; };
 		8A570A6A1FEACDF300287812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A691FEACDF300287812 /* Assets.xcassets */; };
 		8A570A6D1FEACDF300287812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A6B1FEACDF300287812 /* LaunchScreen.storyboard */; };
-		8A8F21572059EEF80048F2F9 /* BurnerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F21532059ED5C0048F2F9 /* BurnerSDK.framework */; };
-		8A8F21582059EEF80048F2F9 /* BurnerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F21532059ED5C0048F2F9 /* BurnerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90B6921524289B6B486B7242 /* Pods_TestBurnerSDKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DD371F2A6AB5989026D3D6 /* Pods_TestBurnerSDKApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8A8F21582059EEF80048F2F9 /* BurnerSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36DD371F2A6AB5989026D3D6 /* Pods_TestBurnerSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBurnerSDKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44792F9B612FB9C1C5A5794B /* Pods-TestBurnerSDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBurnerSDKApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp.release.xcconfig"; sourceTree = "<group>"; };
 		8A570A5F1FEACDF300287812 /* TestBurnerSDKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBurnerSDKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A570A621FEACDF300287812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A570A641FEACDF300287812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		8A570A691FEACDF300287812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A570A6C1FEACDF300287812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A570A6E1FEACDF300287812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A8F21532059ED5C0048F2F9 /* BurnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BurnerSDK.framework; path = TestBurnerSDKApp/BurnerSDK.framework; sourceTree = "<group>"; };
+		C1D9038563FD171C8D833575 /* Pods-TestBurnerSDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBurnerSDKApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A8F21572059EEF80048F2F9 /* BurnerSDK.framework in Frameworks */,
+				90B6921524289B6B486B7242 /* Pods_TestBurnerSDKApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		8A2915F320068C0C001D314B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A8F21532059ED5C0048F2F9 /* BurnerSDK.framework */,
+				36DD371F2A6AB5989026D3D6 /* Pods_TestBurnerSDKApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +67,7 @@
 				8A570A611FEACDF300287812 /* TestBurnerSDKApp */,
 				8A570A601FEACDF300287812 /* Products */,
 				8A2915F320068C0C001D314B /* Frameworks */,
+				CC76F56B48046D7FF8FCA8AB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,15 @@
 			path = TestBurnerSDKApp;
 			sourceTree = "<group>";
 		};
+		CC76F56B48046D7FF8FCA8AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D9038563FD171C8D833575 /* Pods-TestBurnerSDKApp.debug.xcconfig */,
+				44792F9B612FB9C1C5A5794B /* Pods-TestBurnerSDKApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,10 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A570A871FEACDF300287812 /* Build configuration list for PBXNativeTarget "TestBurnerSDKApp" */;
 			buildPhases = (
+				410CF05C133DDD97113D600B /* [CP] Check Pods Manifest.lock */,
 				8A570A5B1FEACDF300287812 /* Sources */,
 				8A570A5C1FEACDF300287812 /* Frameworks */,
 				8A570A5D1FEACDF300287812 /* Resources */,
 				8A8F21592059EEF80048F2F9 /* Embed Frameworks */,
+				976BDF3D221910C141D9E1A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +170,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		410CF05C133DDD97113D600B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestBurnerSDKApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976BDF3D221910C141D9E1A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BurnerSDK/BurnerSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BurnerSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A570A5B1FEACDF300287812 /* Sources */ = {
@@ -300,6 +351,7 @@
 		};
 		8A570A881FEACDF300287812 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D9038563FD171C8D833575 /* Pods-TestBurnerSDKApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -310,6 +362,7 @@
 					"$(PROJECT_DIR)/TestBurnerSDKApp",
 				);
 				INFOPLIST_FILE = TestBurnerSDKApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adhoclabs.TestBurnerSDKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -322,6 +375,7 @@
 		};
 		8A570A891FEACDF300287812 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44792F9B612FB9C1C5A5794B /* Pods-TestBurnerSDKApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -332,6 +386,7 @@
 					"$(PROJECT_DIR)/TestBurnerSDKApp",
 				);
 				INFOPLIST_FILE = TestBurnerSDKApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adhoclabs.TestBurnerSDKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

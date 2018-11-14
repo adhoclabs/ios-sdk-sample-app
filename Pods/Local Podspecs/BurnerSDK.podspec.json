@@ -1,0 +1,23 @@
+{
+  "name": "BurnerSDK",
+  "version": "0.5.0",
+  "summary": "iOS SDK for the Burner app.",
+  "description": "iOS SDK for the Burner app. Included in the library are various tools and UI components.",
+  "homepage": "http://www.burnerapp.com",
+  "license": "Apache-2.0",
+  "authors": "Will Carter",
+  "social_media_url": "http://twitter.com/wcrtr",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "4.0",
+  "source": {
+    "git": "https://github.com/adhoclabs/iOS-SDK.git",
+    "tag": "0.5.0"
+  },
+  "source_files": [
+    "BurnerSDK",
+    "BurnerSDK/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "BurnerSDK/Exclude"
+}
