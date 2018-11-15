@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23A53304219D097A000176D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A53302219D097A000176D1 /* Assets.xcassets */; };
 		8A570A631FEACDF300287812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A570A621FEACDF300287812 /* AppDelegate.swift */; };
 		8A570A651FEACDF300287812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A570A641FEACDF300287812 /* ViewController.swift */; };
 		8A570A681FEACDF300287812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A661FEACDF300287812 /* Main.storyboard */; };
-		8A570A6A1FEACDF300287812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A691FEACDF300287812 /* Assets.xcassets */; };
 		8A570A6D1FEACDF300287812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A570A6B1FEACDF300287812 /* LaunchScreen.storyboard */; };
 		90B6921524289B6B486B7242 /* Pods_TestBurnerSDKApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DD371F2A6AB5989026D3D6 /* Pods_TestBurnerSDKApp.framework */; };
 /* End PBXBuildFile section */
@@ -29,13 +29,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23A53302219D097A000176D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36DD371F2A6AB5989026D3D6 /* Pods_TestBurnerSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBurnerSDKApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44792F9B612FB9C1C5A5794B /* Pods-TestBurnerSDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBurnerSDKApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp.release.xcconfig"; sourceTree = "<group>"; };
 		8A570A5F1FEACDF300287812 /* TestBurnerSDKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBurnerSDKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A570A621FEACDF300287812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A570A641FEACDF300287812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A570A671FEACDF300287812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A570A691FEACDF300287812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A570A6C1FEACDF300287812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A570A6E1FEACDF300287812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D9038563FD171C8D833575 /* Pods-TestBurnerSDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBurnerSDKApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBurnerSDKApp/Pods-TestBurnerSDKApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,10 +82,10 @@
 		8A570A611FEACDF300287812 /* TestBurnerSDKApp */ = {
 			isa = PBXGroup;
 			children = (
+				23A53302219D097A000176D1 /* Assets.xcassets */,
 				8A570A621FEACDF300287812 /* AppDelegate.swift */,
 				8A570A641FEACDF300287812 /* ViewController.swift */,
 				8A570A661FEACDF300287812 /* Main.storyboard */,
-				8A570A691FEACDF300287812 /* Assets.xcassets */,
 				8A570A6B1FEACDF300287812 /* LaunchScreen.storyboard */,
 				8A570A6E1FEACDF300287812 /* Info.plist */,
 			);
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A570A6D1FEACDF300287812 /* LaunchScreen.storyboard in Resources */,
-				8A570A6A1FEACDF300287812 /* Assets.xcassets in Resources */,
+				23A53304219D097A000176D1 /* Assets.xcassets in Resources */,
 				8A570A681FEACDF300287812 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +354,8 @@
 			baseConfigurationReference = C1D9038563FD171C8D833575 /* Pods-TestBurnerSDKApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S4VGDRE38L;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -367,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adhoclabs.TestBurnerSDKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "340ce9f9-887a-431e-9263-b8235778f2a2";
-				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Testing Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "TestBurnerSDKApp Development";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,6 +379,7 @@
 			baseConfigurationReference = 44792F9B612FB9C1C5A5794B /* Pods-TestBurnerSDKApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S4VGDRE38L;
@@ -391,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adhoclabs.TestBurnerSDKApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "340ce9f9-887a-431e-9263-b8235778f2a2";
-				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Testing Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.adhoclabs.TestBurnerSDKApp";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

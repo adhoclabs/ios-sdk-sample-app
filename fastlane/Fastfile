@@ -1,0 +1,49 @@
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+
+update_fastlane
+fastlane_version "2.96.1"
+default_platform :ios
+xcversion(version: "~> 10.0.0")
+
+platform :ios do
+  before_all do
+    # setup_circle_ci
+  end
+
+  lane :beta do
+    match( type: "appstore" )
+    build_app(
+      scheme: "TestBurnerSDKApp",
+      workspace: "TestBurnerSDKApp.xcworkspace",
+      configuration: "Release",
+      export_method: "app-store",
+      export_team_id: "S4VGDRE38L",
+      export_options: {
+          "provisioningProfiles": {
+                                    "com.adhoclabs.TestBurnerSDKApp": "match AppStore com.adhoclabs.TestBurnerSDKApp",
+                                  }
+        }
+    )
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      skip_submission: true
+    )
+    bump_build_number
+    plist_paths = ["TestBurnerSDKApp/Info.plist"]
+    git_commit(
+      path: plist_paths,
+      message: "Fastlane: Version Bump [skip ci]"
+    )
+    push_to_git_remote( local_branch: git_branch )
+
+  end
+
+  lane :bump_build_number do
+    bundle_version = get_info_plist_value({ key: "CFBundleVersion", path: "TestBurnerSDKApp/Info.plist"}).to_i
+    bundle_version = bundle_version + 1
+    set_info_plist_value({ key: "CFBundleVersion", value: bundle_version.to_s, path: "TestBurnerSDKApp/Info.plist"})
+  end
+
+  after_all do |lane|
+  end
+end
