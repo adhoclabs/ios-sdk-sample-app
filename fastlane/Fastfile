@@ -10,7 +10,36 @@ platform :ios do
     # setup_circle_ci
   end
 
-  lane :beta do
+  lane :fabric do
+    match( type: "adhoc" )
+    build_app(
+      scheme: "TestBurnerSDKApp",
+      workspace: "TestBurnerSDKApp.xcworkspace",
+      configuration: "Release",
+      export_method: "ad-hoc",
+      export_team_id: "S4VGDRE38L",
+      export_options: {
+          "provisioningProfiles": {
+                                    "com.adhoclabs.TestBurnerSDKApp": "match AdHoc com.adhoclabs.TestBurnerSDKApp",
+                                  }
+        }
+    )
+    crashlytics(
+      api_token: "eb35a82708ebcc767b03d9169685ecf8e2a9251f",
+      build_secret: "6951d903e49320f1e4b979a95c2d854a3134613dd9da34c51f5f58a4aec4795e",
+      groups: ['qa'],
+      debug: true
+    )
+    bump_build_number
+    plist_paths = ["TestBurnerSDKApp/Info.plist"]
+    git_commit(
+      path: plist_paths,
+      message: "Fastlane: Version Bump [skip ci]"
+    )
+    push_to_git_remote( local_branch: git_branch )
+  end
+
+  lane :testFlight do
     match( type: "appstore" )
     build_app(
       scheme: "TestBurnerSDKApp",

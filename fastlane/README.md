@@ -16,9 +16,14 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios beta
+### ios fabric
 ```
-fastlane ios beta
+fastlane ios fabric
+```
+
+### ios testFlight
+```
+fastlane ios testFlight
 ```
 
 ### ios bump_build_number
