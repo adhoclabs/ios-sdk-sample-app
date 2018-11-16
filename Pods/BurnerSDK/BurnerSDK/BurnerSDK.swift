@@ -112,7 +112,7 @@ public class BurnerSDK: NSObject, UIViewControllerTransitioningDelegate {
     
     internal func startViewBurnersIn(_ window: UIWindow, token: String?, completion: @escaping BurnerCompletionHandler) {
         
-        let bundle = Bundle.init(for: type(of: self))
+        let bundle = Resource().bundle()
         let storyboard = UIStoryboard(name: "Main", bundle: bundle)
         
         if let vc = storyboard.instantiateViewController(withIdentifier: "ExistingUserController") as? ExistingUserViewController {
@@ -139,7 +139,7 @@ public class BurnerSDK: NSObject, UIViewControllerTransitioningDelegate {
     
     internal func startOAuthIn(_ window: UIWindow, completion: @escaping BurnerCompletionHandler) {
         
-        let bundle = Bundle.init(for: type(of: self))
+        let bundle = Resource().bundle()
         let storyboard = UIStoryboard(name: "Main", bundle: bundle)
         
         if let vc = storyboard.instantiateInitialViewController() as? UINavigationController {

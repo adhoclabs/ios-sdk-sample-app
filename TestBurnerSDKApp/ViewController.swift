@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @IBAction func getPhoneNumber(_ sender: Any) {
         
         
-        BurnerSDK.shared.start(clientId: "CLIENT_ID", clientSecret: "CLIENT_SECRET") { (burner, oauth, error) in
+        BurnerSDK.shared.start(clientId: "cplus", clientSecret: "4rWU39GDuyb1jN") { (burner, oauth, error) in
 
             guard let burner = burner, let oauth = oauth else {
                 return

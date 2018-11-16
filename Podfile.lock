@@ -19,11 +19,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BurnerSDK:
-    :commit: a187c4156a39de9fa9a438d6a467c1f936712883
+    :commit: c1b116fd7633f0c20dbbfdae638ca477e5072b4a
     :git: https://github.com/adhoclabs/iOS-SDK.git
 
 SPEC CHECKSUMS:
-  BurnerSDK: 39ff1d666b1db3d4fa1707f45d859bf4c2c6dcb9
+  BurnerSDK: 3875563e424860d18c7c29d861b21addc44b35ff
   Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
   Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
 

@@ -19,5 +19,10 @@
     "BurnerSDK",
     "BurnerSDK/**/*.{h,m,swift}"
   ],
-  "exclude_files": "BurnerSDK/Exclude"
+  "exclude_files": "BurnerSDK/Exclude",
+  "resource_bundles": {
+    "Resources": [
+      "BurnerSDK/**/*.{xcassets,storyboard}"
+    ]
+  }
 }

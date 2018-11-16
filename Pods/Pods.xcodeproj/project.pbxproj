@@ -8,93 +8,109 @@
 
 /* Begin PBXBuildFile section */
 		07902FF2F38C725D9769CCD60D246A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0C8FADC40514998C71F8F1D6D2140927 /* Creds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE6ACD80E00F61AA7DFECC12700905 /* Creds.swift */; };
-		0D6C16C6CC8A3B021F4674DFEF855845 /* BurnerAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEA0AC465DF833FB525771F2946E11 /* BurnerAuthorizationViewController.swift */; };
+		07C8CC322AF31DEFFF66F040CAE0327B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0900CD1CBBC5CFD7EF03509E2215C7A4 /* BurnerSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C06FA55283812C25DE1B975857B627 /* BurnerSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09568B56CF0597AB3778925115525265 /* ConnectedBurners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A453A1820C7004DBDB74B7D581FFA /* ConnectedBurners.swift */; };
 		0DE036055B40598E4E050ED660066EC9 /* Pods-TestBurnerSDKApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBECAB196662C54ACB1C9B2275D66A /* Pods-TestBurnerSDKApp-dummy.m */; };
-		1DBA5984558FE0F50E6F9C10B9EB2491 /* BurnerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1999E2DB76CD7151BE831748AA35625D /* BurnerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F216D98E44A5AA7293873C542C54057 /* ConnectedBurners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9192B2892457BB23A318AD0C0CB30658 /* ConnectedBurners.swift */; };
-		2FD489809D83C7BD8B665009BAEB45A7 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E28C36E7AD5C606D84272217B8D1C /* NumberTableViewCell.swift */; };
-		2FF157692C48E0AF6C48DF280E65D171 /* SuccessExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF5B201E80646656212E34211F19718 /* SuccessExistingViewController.swift */; };
-		312955710000D065313D82A5A54E5990 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FFFFCC7BA8BD31E0D08BF67CF3753 /* SlideAnimator.swift */; };
-		354BFA14A678BD08D3589531BA053210 /* WebErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2DACA2725DF9270ED3FE72011FF4E /* WebErrorViewController.swift */; };
-		488B0AAA62FC0C60AA3539C4954F8A3D /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E017632B0109D9B1FBE0345247EF5 /* SuccessViewController.swift */; };
-		49B47853344ECF39F9FCF2BB039EFD29 /* BurnerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519A4A7C30442D3F6254ACEC2B323E4A /* BurnerSDK-dummy.m */; };
-		4BCBF2DBD33CC0B86AE342658E2022A6 /* BurnerSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6ADA96263FA77BCD13654B09205835 /* BurnerSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82FEEBC9D51C7D80D0B4D18179D507A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		85A9B647BAD56949411D37357080599F /* URLRequest+BodyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8861A863F970C7A95985569982A69 /* URLRequest+BodyContent.swift */; };
-		9B794A79F86610E4E0CB021270E2F9BD /* BurnerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D36B457284099E1BBB61FC9663AACC7 /* BurnerSDK.swift */; };
-		A96EFF4D28A3AA3DD62501A2145DFC61 /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964F342EA7BF89E93CEE7952B1FCF8B /* StringAdditions.swift */; };
-		AF507255F39CD6622B80D21CCA5404E8 /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8950A34F0325F3D771AE1D052C7A705F /* OAuth.swift */; };
-		B196BEC2BDB561A61F62AE28B9E44D6C /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F67314EC4555D35B75A52AFD9EDCD9 /* PushAnimator.swift */; };
-		E054DBAD34294239BF44D4C31D38507C /* Burner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81BF8F3103005D0A57EAA50F2C61C9B /* Burner.swift */; };
-		E2B1B5897AA90BC6397536CEC8BD7F08 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D972DFA7B525AD2BAC419BB812C632 /* HttpManager.swift */; };
+		422B5D86E57D1F4F3A43C2D3EF0A9371 /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03D7D39E165858A38EC8CB578129E9 /* OAuth.swift */; };
+		4DE28CBC0750EA071D063EF81EF71875 /* ExistingUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4017B61EE99BB416D91CAA98332B32 /* ExistingUserViewController.swift */; };
+		523218304A837A2CDAFEE33E9E2DD2F7 /* URLRequest+BodyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45178163DCE8733062FC3911EC95B575 /* URLRequest+BodyContent.swift */; };
+		5D0072C4908848CE795313482EDCE8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599E6DF70EE64FBB2F8A2331FC65C4F2 /* Main.storyboard */; };
+		8BA83DB55030B60A96DEFD0CBB981BA4 /* Burner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA284E2BF35EDF579FA3693A631E07E /* Burner.swift */; };
+		903B10E520C65D3A6F5A65BBD50FF547 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94918267BF1515ACA21A3418867C3842 /* HttpManager.swift */; };
+		95CE86F7E1D117F42FFC6154FC393FCD /* BurnerAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F8B03C7E52D2BA80668207D472885E /* BurnerAuthorizationViewController.swift */; };
+		96B20A5DC8E73A2013B1B16293815345 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DCE07ABE018D294E32F3BC25CFF7C /* Resources.bundle */; };
+		A3DAD6F1B7AA34770DA43ED1919A0C55 /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D781B87A5A0E7B97AE2B27AAE35A2 /* StringAdditions.swift */; };
+		A65AFBB22E976B615576849F97811406 /* BurnerAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353A68B28638E3CEC6D52B582C9E7F0 /* BurnerAppManager.swift */; };
+		A7033F016C1C6FA11E42E14C19BB06ED /* ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED296076E65AC16B00C1BDA0EB3E71 /* ResourceHelper.swift */; };
+		B8F2BE942EAE752961B18E2F903B7219 /* SuccessExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EEDB47F885A6084438CFA02F891379 /* SuccessExistingViewController.swift */; };
+		C798FE8F8D51A3E73DDDD03D9EEFBB8F /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B25EDB96E0ECA14ECA5D1720405C3D /* SlideAnimator.swift */; };
+		CAD185D31DD54200A9234F446045915F /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000CB1CAF7D30B18F889D2880D40EC3 /* PushAnimator.swift */; };
+		CE4BBA118C068920C3077C4AEC10BFA9 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748474767859794162DE68338CA75108 /* SuccessViewController.swift */; };
+		D1F5DC578DE8E3D398E83F1F61155FD7 /* WebErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5750C10C8817F4CBADD3550033941BDF /* WebErrorViewController.swift */; };
+		D5CD9DAAB9396E8B6D6275AC92885EF8 /* NumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFFAC8DFC54E285AEAC45C72D389E2C /* NumberTableViewCell.swift */; };
+		D78F12B20F11EB9F8CF9393EF5D58823 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0073E5E088025F342430E02169C279B9 /* Media.xcassets */; };
+		E61766F75B4EC83A59096205F4B427D9 /* BurnerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC8198C8E5A87B5635837B08A8286A /* BurnerSDK-dummy.m */; };
+		E7EDE2BAA14B735F669ADC9C82028C95 /* BurnerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA94A2D31A6B5E5915C1AA3CB6108F2D /* BurnerSDK.swift */; };
 		E8C7A29BA3C1F0E16FD11407DB6D0970 /* Pods-TestBurnerSDKApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D98898BE44F31DFEA4A95E47E86AE9 /* Pods-TestBurnerSDKApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA7AB3742FABA2842D29CED59C97809C /* BurnerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97890DBB0B4D947F63771974900AB8 /* BurnerNavigationController.swift */; };
-		EEA152DF00AFE4585C85F326153CEF27 /* ExistingUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E30960B57C316B9B43917BB505DE99 /* ExistingUserViewController.swift */; };
-		FAC77924DE2547CBDCF6E7F6E82246D2 /* BurnerAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28630260276C09DDB82C7FCC128EC7 /* BurnerAppManager.swift */; };
+		E929A790983F282892EE0CBB7D31B426 /* BurnerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B953D5FFD5D5C3BCDDE2C084A5CDF4AC /* BurnerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5697F061F81490BF08D63D24252DA91 /* Creds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EFB6AC3C09F287DB0961D0EFF9207 /* Creds.swift */; };
+		FA746B0A7970C4928DCF930C1B483461 /* BurnerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA045C56604D897E1F65209110610F6 /* BurnerNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1CE0C7A975E9B16D7588E2D162A7EE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09442FC6894E02BB8DEAB7224E362662;
+			remoteInfo = "BurnerSDK-Resources";
+		};
 		EC9F3AB00ED1703C4BA438B76E6E5FFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38DF015DF7F7A4A9075DAD39ADEF88E4;
+			remoteGlobalIDString = F13A32AF1019F8121D776DA240A4A2D0;
 			remoteInfo = BurnerSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08AFABCCC982E7BDAC1B9EC1ADB0931C /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		0D36B457284099E1BBB61FC9663AACC7 /* BurnerSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerSDK.swift; path = BurnerSDK/BurnerSDK.swift; sourceTree = "<group>"; };
-		151D31CC5745C09755BCD430F19DA84C /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		15E788A3F8C4FC4FBE91856C208AFD2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1999E2DB76CD7151BE831748AA35625D /* BurnerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BurnerSDK-umbrella.h"; sourceTree = "<group>"; };
-		1DC990C565D65D9A061F366C43EA6374 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		1E6ADA96263FA77BCD13654B09205835 /* BurnerSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BurnerSDK.h; path = BurnerSDK/BurnerSDK.h; sourceTree = "<group>"; };
+		0073E5E088025F342430E02169C279B9 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = BurnerSDK/Media.xcassets; sourceTree = "<group>"; };
+		0B294463B2DDC0AB7113F6C66D249FAA /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		0B6D781B87A5A0E7B97AE2B27AAE35A2 /* StringAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringAdditions.swift; path = BurnerSDK/StringAdditions.swift; sourceTree = "<group>"; };
+		0D7B9204569644C69FFCFA233E50F509 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8DCE07ABE018D294E32F3BC25CFF7C /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Resources.bundle; path = "BurnerSDK-Resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5A4DADF2C133368DB0F7547D831893 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
 		21D98898BE44F31DFEA4A95E47E86AE9 /* Pods-TestBurnerSDKApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBurnerSDKApp-umbrella.h"; sourceTree = "<group>"; };
-		2E8E28C36E7AD5C606D84272217B8D1C /* NumberTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberTableViewCell.swift; path = BurnerSDK/NumberTableViewCell.swift; sourceTree = "<group>"; };
-		2EF5B201E80646656212E34211F19718 /* SuccessExistingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuccessExistingViewController.swift; path = BurnerSDK/SuccessExistingViewController.swift; sourceTree = "<group>"; };
-		3176560B938C871ADC1EE9F4FDBEE6DC /* BurnerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BurnerSDK.modulemap; sourceTree = "<group>"; };
-		31E85F541259A76BC9869735613C16E1 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
 		326693745BE13ACB360355C8462120CA /* Pods-TestBurnerSDKApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBurnerSDKApp.release.xcconfig"; sourceTree = "<group>"; };
-		3F97890DBB0B4D947F63771974900AB8 /* BurnerNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerNavigationController.swift; path = BurnerSDK/BurnerNavigationController.swift; sourceTree = "<group>"; };
+		34AED138F3DFE4B669C81C744A54107F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		372685B518519333BC2447EDCE694156 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		3C4017B61EE99BB416D91CAA98332B32 /* ExistingUserViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExistingUserViewController.swift; path = BurnerSDK/ExistingUserViewController.swift; sourceTree = "<group>"; };
+		45178163DCE8733062FC3911EC95B575 /* URLRequest+BodyContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+BodyContent.swift"; path = "BurnerSDK/URLRequest+BodyContent.swift"; sourceTree = "<group>"; };
+		4FA437334CDB5C944E6EE2819B3E57A9 /* Pods_TestBurnerSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestBurnerSDKApp.framework; path = "Pods-TestBurnerSDKApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF5D1C1E51701B824D9D2DAAEC1762F /* Pods-TestBurnerSDKApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBurnerSDKApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		519A4A7C30442D3F6254ACEC2B323E4A /* BurnerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BurnerSDK-dummy.m"; sourceTree = "<group>"; };
-		574D5C1D216F0D3039DCA677D6C7070F /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		57F2DACA2725DF9270ED3FE72011FF4E /* WebErrorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebErrorViewController.swift; path = BurnerSDK/WebErrorViewController.swift; sourceTree = "<group>"; };
-		5964F342EA7BF89E93CEE7952B1FCF8B /* StringAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringAdditions.swift; path = BurnerSDK/StringAdditions.swift; sourceTree = "<group>"; };
+		51D0A4F7848B31CAA6800B2B5F8F6F33 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		55170FE6697830C54A0E340ACA724D5A /* BurnerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BurnerSDK-prefix.pch"; sourceTree = "<group>"; };
+		564EFB6AC3C09F287DB0961D0EFF9207 /* Creds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Creds.swift; path = BurnerSDK/Creds.swift; sourceTree = "<group>"; };
+		5750C10C8817F4CBADD3550033941BDF /* WebErrorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebErrorViewController.swift; path = BurnerSDK/WebErrorViewController.swift; sourceTree = "<group>"; };
+		5943CD3F4AE23173876EB6868C3D06FF /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		595E7A328507E4265D041BBDEA03039C /* ResourceBundle-Resources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-Info.plist"; sourceTree = "<group>"; };
+		599E6DF70EE64FBB2F8A2331FC65C4F2 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = BurnerSDK/Main.storyboard; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AA7073C6BC10D83D17A0F820535A5CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F754C5A05D8213F30B1722A8538F4CD /* Pods-TestBurnerSDKApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBurnerSDKApp-resources.sh"; sourceTree = "<group>"; };
-		638FFFFCC7BA8BD31E0D08BF67CF3753 /* SlideAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideAnimator.swift; path = BurnerSDK/SlideAnimator.swift; sourceTree = "<group>"; };
-		63D8861A863F970C7A95985569982A69 /* URLRequest+BodyContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+BodyContent.swift"; path = "BurnerSDK/URLRequest+BodyContent.swift"; sourceTree = "<group>"; };
-		67AE6ACD80E00F61AA7DFECC12700905 /* Creds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Creds.swift; path = BurnerSDK/Creds.swift; sourceTree = "<group>"; };
-		749FC8B893EAEC321FB26F061044A520 /* BurnerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BurnerSDK.framework; path = BurnerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3E017632B0109D9B1FBE0345247EF5 /* SuccessViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuccessViewController.swift; path = BurnerSDK/SuccessViewController.swift; sourceTree = "<group>"; };
-		7FDD4166E6B2B019C7789B22FC860A02 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		8950A34F0325F3D771AE1D052C7A705F /* OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth.swift; path = BurnerSDK/Models/OAuth.swift; sourceTree = "<group>"; };
-		9192B2892457BB23A318AD0C0CB30658 /* ConnectedBurners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectedBurners.swift; path = BurnerSDK/Models/ConnectedBurners.swift; sourceTree = "<group>"; };
-		9223C9D1905659C1239328743AB918CF /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		6690DC7CA954C06A566BE8F49AB17E8F /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		6E7A453A1820C7004DBDB74B7D581FFA /* ConnectedBurners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectedBurners.swift; path = BurnerSDK/Models/ConnectedBurners.swift; sourceTree = "<group>"; };
+		748474767859794162DE68338CA75108 /* SuccessViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuccessViewController.swift; path = BurnerSDK/SuccessViewController.swift; sourceTree = "<group>"; };
+		75AD0EC80A5DF0BFE8460821B14870B6 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		75C06FA55283812C25DE1B975857B627 /* BurnerSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BurnerSDK.h; path = BurnerSDK/BurnerSDK.h; sourceTree = "<group>"; };
+		76C92AD47CEB4E6B3E6F8BDD376C73E1 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		7A95E6ED5C8CFA61DBB373DD7D5EEEED /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		7CB874AAAEE3F000754F00C7449457F1 /* BurnerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BurnerSDK.modulemap; sourceTree = "<group>"; };
+		7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BurnerSDK.xcconfig; sourceTree = "<group>"; };
+		85B25EDB96E0ECA14ECA5D1720405C3D /* SlideAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideAnimator.swift; path = BurnerSDK/SlideAnimator.swift; sourceTree = "<group>"; };
+		9000CB1CAF7D30B18F889D2880D40EC3 /* PushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnimator.swift; path = BurnerSDK/PushAnimator.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		942D9B66C5A130623AC5094DA74EBF4A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		96E30960B57C316B9B43917BB505DE99 /* ExistingUserViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExistingUserViewController.swift; path = BurnerSDK/ExistingUserViewController.swift; sourceTree = "<group>"; };
+		94918267BF1515ACA21A3418867C3842 /* HttpManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpManager.swift; path = BurnerSDK/HttpManager.swift; sourceTree = "<group>"; };
 		A22F59DA62669CAE217A8A681FFB4C28 /* Pods-TestBurnerSDKApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBurnerSDKApp-frameworks.sh"; sourceTree = "<group>"; };
-		A362B55BF2F165B1604C671C0ACCFF45 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		A3A7D2051C07EA7C09A4C4EBCDE27D78 /* Pods_TestBurnerSDKApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestBurnerSDKApp.framework; path = "Pods-TestBurnerSDKApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E4686DEEF994538440D0213E10C0E0 /* Pods-TestBurnerSDKApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestBurnerSDKApp.modulemap"; sourceTree = "<group>"; };
-		B6D972DFA7B525AD2BAC419BB812C632 /* HttpManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpManager.swift; path = BurnerSDK/HttpManager.swift; sourceTree = "<group>"; };
-		BCF8BAFE43451A9C55C6B9E29078B3E1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		B4F8B03C7E52D2BA80668207D472885E /* BurnerAuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerAuthorizationViewController.swift; path = BurnerSDK/BurnerAuthorizationViewController.swift; sourceTree = "<group>"; };
+		B8EEDB47F885A6084438CFA02F891379 /* SuccessExistingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuccessExistingViewController.swift; path = BurnerSDK/SuccessExistingViewController.swift; sourceTree = "<group>"; };
+		B953D5FFD5D5C3BCDDE2C084A5CDF4AC /* BurnerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BurnerSDK-umbrella.h"; sourceTree = "<group>"; };
+		BAFFAC8DFC54E285AEAC45C72D389E2C /* NumberTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberTableViewCell.swift; path = BurnerSDK/NumberTableViewCell.swift; sourceTree = "<group>"; };
+		C37DBE8E24EBD804C99A9DCFAC6E3460 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		C3BBECAB196662C54ACB1C9B2275D66A /* Pods-TestBurnerSDKApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBurnerSDKApp-dummy.m"; sourceTree = "<group>"; };
-		C4B920089EDBD2A2AD5FE627005B1FE0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		C81BF8F3103005D0A57EAA50F2C61C9B /* Burner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Burner.swift; path = BurnerSDK/Models/Burner.swift; sourceTree = "<group>"; };
 		C95010D2CBBA125AD7871DF6C7727084 /* Pods-TestBurnerSDKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBurnerSDKApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DE77B263152F56C4F80F551F51FD8E7A /* BurnerSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BurnerSDK.xcconfig; sourceTree = "<group>"; };
-		DF28630260276C09DDB82C7FCC128EC7 /* BurnerAppManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerAppManager.swift; path = BurnerSDK/BurnerAppManager.swift; sourceTree = "<group>"; };
-		EBFEA0AC465DF833FB525771F2946E11 /* BurnerAuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerAuthorizationViewController.swift; path = BurnerSDK/BurnerAuthorizationViewController.swift; sourceTree = "<group>"; };
-		F3F67314EC4555D35B75A52AFD9EDCD9 /* PushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnimator.swift; path = BurnerSDK/PushAnimator.swift; sourceTree = "<group>"; };
+		CA94A2D31A6B5E5915C1AA3CB6108F2D /* BurnerSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerSDK.swift; path = BurnerSDK/BurnerSDK.swift; sourceTree = "<group>"; };
+		CCEC8198C8E5A87B5635837B08A8286A /* BurnerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BurnerSDK-dummy.m"; sourceTree = "<group>"; };
+		CE03D7D39E165858A38EC8CB578129E9 /* OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth.swift; path = BurnerSDK/Models/OAuth.swift; sourceTree = "<group>"; };
+		D353A68B28638E3CEC6D52B582C9E7F0 /* BurnerAppManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerAppManager.swift; path = BurnerSDK/BurnerAppManager.swift; sourceTree = "<group>"; };
+		DEA284E2BF35EDF579FA3693A631E07E /* Burner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Burner.swift; path = BurnerSDK/Models/Burner.swift; sourceTree = "<group>"; };
+		DFA045C56604D897E1F65209110610F6 /* BurnerNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BurnerNavigationController.swift; path = BurnerSDK/BurnerNavigationController.swift; sourceTree = "<group>"; };
+		E6804A7B9E8973F893D4F7BA4D2B4180 /* BurnerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BurnerSDK.framework; path = BurnerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F711292AB2BFF64B6C04921FD11160C5 /* Pods-TestBurnerSDKApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBurnerSDKApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		F74CCC38C289894BF64CC72534F15E75 /* BurnerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BurnerSDK-prefix.pch"; sourceTree = "<group>"; };
+		FDED296076E65AC16B00C1BDA0EB3E71 /* ResourceHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceHelper.swift; path = BurnerSDK/ResourceHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,33 +122,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6468322605E548963124E7F6E9A226BA /* Frameworks */ = {
+		5BBFC742A7FEFEB046693AF40DB046A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82FEEBC9D51C7D80D0B4D18179D507A6 /* Foundation.framework in Frameworks */,
+				07C8CC322AF31DEFFF66F040CAE0327B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2D98C3897B9062D7E33A27A15BC1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089BB51A666F2EAFF0E36A12D64A88AA /* Crashlytics */ = {
-			isa = PBXGroup;
-			children = (
-				08AFABCCC982E7BDAC1B9EC1ADB0931C /* ANSCompatibility.h */,
-				1DC990C565D65D9A061F366C43EA6374 /* Answers.h */,
-				7FDD4166E6B2B019C7789B22FC860A02 /* CLSAttributes.h */,
-				574D5C1D216F0D3039DCA677D6C7070F /* CLSLogging.h */,
-				31E85F541259A76BC9869735613C16E1 /* CLSReport.h */,
-				151D31CC5745C09755BCD430F19DA84C /* CLSStackFrame.h */,
-				A362B55BF2F165B1604C671C0ACCFF45 /* Crashlytics.h */,
-				C15E2DB6AC17F37CD5A19423DA22FB83 /* Frameworks */,
-			);
-			name = Crashlytics;
-			path = Crashlytics;
-			sourceTree = "<group>";
-		};
 		299DEAC59F6DFD16AA1700483B83728B /* Pods-TestBurnerSDKApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +158,78 @@
 			path = "Target Support Files/Pods-TestBurnerSDKApp";
 			sourceTree = "<group>";
 		};
-		47A6AB2DD142B1A4133B51AF9B987190 /* Fabric */ = {
+		2BF11FDEEB5F910C8E78F02E643BDC62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCF8BAFE43451A9C55C6B9E29078B3E1 /* FABAttributes.h */,
-				9223C9D1905659C1239328743AB918CF /* Fabric.h */,
-				95A994C9BE357F511CA1A52FE636E917 /* Frameworks */,
+				34AED138F3DFE4B669C81C744A54107F /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		485219399E0C81470B9FB207A2F15BFF /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				51D0A4F7848B31CAA6800B2B5F8F6F33 /* ANSCompatibility.h */,
+				1D5A4DADF2C133368DB0F7547D831893 /* Answers.h */,
+				76C92AD47CEB4E6B3E6F8BDD376C73E1 /* CLSAttributes.h */,
+				5943CD3F4AE23173876EB6868C3D06FF /* CLSLogging.h */,
+				7A95E6ED5C8CFA61DBB373DD7D5EEEED /* CLSReport.h */,
+				372685B518519333BC2447EDCE694156 /* CLSStackFrame.h */,
+				75AD0EC80A5DF0BFE8460821B14870B6 /* Crashlytics.h */,
+				2BF11FDEEB5F910C8E78F02E643BDC62 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		562D7EC21644F3C1B9C308F25147DA03 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				6690DC7CA954C06A566BE8F49AB17E8F /* FABAttributes.h */,
+				C37DBE8E24EBD804C99A9DCFAC6E3460 /* Fabric.h */,
+				AE0AE61689D767CA292A7DB01A8BC90D /* Frameworks */,
 			);
 			name = Fabric;
 			path = Fabric;
+			sourceTree = "<group>";
+		};
+		57C7F7C5A363B7CAB6CFFDA499F1123A /* BurnerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DEA284E2BF35EDF579FA3693A631E07E /* Burner.swift */,
+				D353A68B28638E3CEC6D52B582C9E7F0 /* BurnerAppManager.swift */,
+				B4F8B03C7E52D2BA80668207D472885E /* BurnerAuthorizationViewController.swift */,
+				DFA045C56604D897E1F65209110610F6 /* BurnerNavigationController.swift */,
+				75C06FA55283812C25DE1B975857B627 /* BurnerSDK.h */,
+				CA94A2D31A6B5E5915C1AA3CB6108F2D /* BurnerSDK.swift */,
+				6E7A453A1820C7004DBDB74B7D581FFA /* ConnectedBurners.swift */,
+				564EFB6AC3C09F287DB0961D0EFF9207 /* Creds.swift */,
+				3C4017B61EE99BB416D91CAA98332B32 /* ExistingUserViewController.swift */,
+				94918267BF1515ACA21A3418867C3842 /* HttpManager.swift */,
+				BAFFAC8DFC54E285AEAC45C72D389E2C /* NumberTableViewCell.swift */,
+				CE03D7D39E165858A38EC8CB578129E9 /* OAuth.swift */,
+				9000CB1CAF7D30B18F889D2880D40EC3 /* PushAnimator.swift */,
+				FDED296076E65AC16B00C1BDA0EB3E71 /* ResourceHelper.swift */,
+				85B25EDB96E0ECA14ECA5D1720405C3D /* SlideAnimator.swift */,
+				0B6D781B87A5A0E7B97AE2B27AAE35A2 /* StringAdditions.swift */,
+				B8EEDB47F885A6084438CFA02F891379 /* SuccessExistingViewController.swift */,
+				748474767859794162DE68338CA75108 /* SuccessViewController.swift */,
+				45178163DCE8733062FC3911EC95B575 /* URLRequest+BodyContent.swift */,
+				5750C10C8817F4CBADD3550033941BDF /* WebErrorViewController.swift */,
+				5C97851D969E9430A1AEF882F7F91668 /* Resources */,
+				63169F976445835FB810F875CF2B77F7 /* Support Files */,
+			);
+			name = BurnerSDK;
+			path = BurnerSDK;
+			sourceTree = "<group>";
+		};
+		5C97851D969E9430A1AEF882F7F91668 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				599E6DF70EE64FBB2F8A2331FC65C4F2 /* Main.storyboard */,
+				0073E5E088025F342430E02169C279B9 /* Media.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -170,18 +240,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7224D9192555A99F4CBB37B0F92EDA48 /* Support Files */ = {
+		63169F976445835FB810F875CF2B77F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3176560B938C871ADC1EE9F4FDBEE6DC /* BurnerSDK.modulemap */,
-				DE77B263152F56C4F80F551F51FD8E7A /* BurnerSDK.xcconfig */,
-				519A4A7C30442D3F6254ACEC2B323E4A /* BurnerSDK-dummy.m */,
-				F74CCC38C289894BF64CC72534F15E75 /* BurnerSDK-prefix.pch */,
-				1999E2DB76CD7151BE831748AA35625D /* BurnerSDK-umbrella.h */,
-				15E788A3F8C4FC4FBE91856C208AFD2C /* Info.plist */,
+				7CB874AAAEE3F000754F00C7449457F1 /* BurnerSDK.modulemap */,
+				7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */,
+				CCEC8198C8E5A87B5635837B08A8286A /* BurnerSDK-dummy.m */,
+				55170FE6697830C54A0E340ACA724D5A /* BurnerSDK-prefix.pch */,
+				B953D5FFD5D5C3BCDDE2C084A5CDF4AC /* BurnerSDK-umbrella.h */,
+				0D7B9204569644C69FFCFA233E50F509 /* Info.plist */,
+				595E7A328507E4265D041BBDEA03039C /* ResourceBundle-Resources-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BurnerSDK";
+			sourceTree = "<group>";
+		};
+		710DCE8B29CF162D395F483A93B24C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C7F7C5A363B7CAB6CFFDA499F1123A /* BurnerSDK */,
+				485219399E0C81470B9FB207A2F15BFF /* Crashlytics */,
+				562D7EC21644F3C1B9C308F25147DA03 /* Fabric */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -189,8 +270,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F40C1B71E9D672903FFDD2C5A118D422 /* Pods */,
-				A1152F35595AE4D8019F09EED1DA1B78 /* Products */,
+				710DCE8B29CF162D395F483A93B24C0C /* Pods */,
+				8F1EC572D5D8FD6B709FF1BE9B309A5A /* Products */,
 				80D71BC53D06627072E7B4FA91725138 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -203,49 +284,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8DA3E7D6B35FFF175084AD1BD6DD96A4 /* BurnerSDK */ = {
+		8F1EC572D5D8FD6B709FF1BE9B309A5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C81BF8F3103005D0A57EAA50F2C61C9B /* Burner.swift */,
-				DF28630260276C09DDB82C7FCC128EC7 /* BurnerAppManager.swift */,
-				EBFEA0AC465DF833FB525771F2946E11 /* BurnerAuthorizationViewController.swift */,
-				3F97890DBB0B4D947F63771974900AB8 /* BurnerNavigationController.swift */,
-				1E6ADA96263FA77BCD13654B09205835 /* BurnerSDK.h */,
-				0D36B457284099E1BBB61FC9663AACC7 /* BurnerSDK.swift */,
-				9192B2892457BB23A318AD0C0CB30658 /* ConnectedBurners.swift */,
-				67AE6ACD80E00F61AA7DFECC12700905 /* Creds.swift */,
-				96E30960B57C316B9B43917BB505DE99 /* ExistingUserViewController.swift */,
-				B6D972DFA7B525AD2BAC419BB812C632 /* HttpManager.swift */,
-				2E8E28C36E7AD5C606D84272217B8D1C /* NumberTableViewCell.swift */,
-				8950A34F0325F3D771AE1D052C7A705F /* OAuth.swift */,
-				F3F67314EC4555D35B75A52AFD9EDCD9 /* PushAnimator.swift */,
-				638FFFFCC7BA8BD31E0D08BF67CF3753 /* SlideAnimator.swift */,
-				5964F342EA7BF89E93CEE7952B1FCF8B /* StringAdditions.swift */,
-				2EF5B201E80646656212E34211F19718 /* SuccessExistingViewController.swift */,
-				7E3E017632B0109D9B1FBE0345247EF5 /* SuccessViewController.swift */,
-				63D8861A863F970C7A95985569982A69 /* URLRequest+BodyContent.swift */,
-				57F2DACA2725DF9270ED3FE72011FF4E /* WebErrorViewController.swift */,
-				7224D9192555A99F4CBB37B0F92EDA48 /* Support Files */,
-			);
-			name = BurnerSDK;
-			path = BurnerSDK;
-			sourceTree = "<group>";
-		};
-		95A994C9BE357F511CA1A52FE636E917 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				942D9B66C5A130623AC5094DA74EBF4A /* Fabric.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1152F35595AE4D8019F09EED1DA1B78 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				749FC8B893EAEC321FB26F061044A520 /* BurnerSDK.framework */,
-				A3A7D2051C07EA7C09A4C4EBCDE27D78 /* Pods_TestBurnerSDKApp.framework */,
+				E6804A7B9E8973F893D4F7BA4D2B4180 /* BurnerSDK.framework */,
+				4FA437334CDB5C944E6EE2819B3E57A9 /* Pods_TestBurnerSDKApp.framework */,
+				0F8DCE07ABE018D294E32F3BC25CFF7C /* Resources.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0AE61689D767CA292A7DB01A8BC90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B294463B2DDC0AB7113F6C66D249FAA /* Fabric.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -254,24 +308,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C15E2DB6AC17F37CD5A19423DA22FB83 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C4B920089EDBD2A2AD5FE627005B1FE0 /* Crashlytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F40C1B71E9D672903FFDD2C5A118D422 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8DA3E7D6B35FFF175084AD1BD6DD96A4 /* BurnerSDK */,
-				089BB51A666F2EAFF0E36A12D64A88AA /* Crashlytics */,
-				47A6AB2DD142B1A4133B51AF9B987190 /* Fabric */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,34 +321,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E544FB95CF114442AC7D3C229E18CF78 /* Headers */ = {
+		F9B15B42D46D722778C1EFAA973FDFDF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DBA5984558FE0F50E6F9C10B9EB2491 /* BurnerSDK-umbrella.h in Headers */,
-				4BCBF2DBD33CC0B86AE342658E2022A6 /* BurnerSDK.h in Headers */,
+				E929A790983F282892EE0CBB7D31B426 /* BurnerSDK-umbrella.h in Headers */,
+				0900CD1CBBC5CFD7EF03509E2215C7A4 /* BurnerSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38DF015DF7F7A4A9075DAD39ADEF88E4 /* BurnerSDK */ = {
+		09442FC6894E02BB8DEAB7224E362662 /* BurnerSDK-Resources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D00E43CE3325B4CA31B85A161ED4F41 /* Build configuration list for PBXNativeTarget "BurnerSDK" */;
+			buildConfigurationList = 02FE5AD98B3244653E9BFC27CAFA1773 /* Build configuration list for PBXNativeTarget "BurnerSDK-Resources" */;
 			buildPhases = (
-				18374EF73F84A4DEBDB717F50356A1F9 /* Sources */,
-				6468322605E548963124E7F6E9A226BA /* Frameworks */,
-				E544FB95CF114442AC7D3C229E18CF78 /* Headers */,
+				861766F465A151D4D4E4B538F577E30D /* Sources */,
+				8F2D98C3897B9062D7E33A27A15BC1E1 /* Frameworks */,
+				6758D14D8F45907C7DE5CAAE3413A82F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BurnerSDK;
-			productName = BurnerSDK;
-			productReference = 749FC8B893EAEC321FB26F061044A520 /* BurnerSDK.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "BurnerSDK-Resources";
+			productName = "BurnerSDK-Resources";
+			productReference = 0F8DCE07ABE018D294E32F3BC25CFF7C /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		56164A5ADDB911F11EC9D3B5EAAF2046 /* Pods-TestBurnerSDKApp */ = {
 			isa = PBXNativeTarget;
@@ -329,7 +365,26 @@
 			);
 			name = "Pods-TestBurnerSDKApp";
 			productName = "Pods-TestBurnerSDKApp";
-			productReference = A3A7D2051C07EA7C09A4C4EBCDE27D78 /* Pods_TestBurnerSDKApp.framework */;
+			productReference = 4FA437334CDB5C944E6EE2819B3E57A9 /* Pods_TestBurnerSDKApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F13A32AF1019F8121D776DA240A4A2D0 /* BurnerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4E51DD5779F691EE5A3067414A9DFD /* Build configuration list for PBXNativeTarget "BurnerSDK" */;
+			buildPhases = (
+				9F712E9FC8F7B3DBECB4368E32A189EA /* Sources */,
+				5BBFC742A7FEFEB046693AF40DB046A9 /* Frameworks */,
+				2DA26E6F7119CD63384D9DD42F76EC2A /* Resources */,
+				F9B15B42D46D722778C1EFAA973FDFDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FE4033F5894ACBFE795860F444F4D8 /* PBXTargetDependency */,
+			);
+			name = BurnerSDK;
+			productName = BurnerSDK;
+			productReference = E6804A7B9E8973F893D4F7BA4D2B4180 /* BurnerSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -349,40 +404,69 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A1152F35595AE4D8019F09EED1DA1B78 /* Products */;
+			productRefGroup = 8F1EC572D5D8FD6B709FF1BE9B309A5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38DF015DF7F7A4A9075DAD39ADEF88E4 /* BurnerSDK */,
+				F13A32AF1019F8121D776DA240A4A2D0 /* BurnerSDK */,
+				09442FC6894E02BB8DEAB7224E362662 /* BurnerSDK-Resources */,
 				56164A5ADDB911F11EC9D3B5EAAF2046 /* Pods-TestBurnerSDKApp */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2DA26E6F7119CD63384D9DD42F76EC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B20A5DC8E73A2013B1B16293815345 /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6758D14D8F45907C7DE5CAAE3413A82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0072C4908848CE795313482EDCE8A7 /* Main.storyboard in Resources */,
+				D78F12B20F11EB9F8CF9393EF5D58823 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		18374EF73F84A4DEBDB717F50356A1F9 /* Sources */ = {
+		861766F465A151D4D4E4B538F577E30D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E054DBAD34294239BF44D4C31D38507C /* Burner.swift in Sources */,
-				FAC77924DE2547CBDCF6E7F6E82246D2 /* BurnerAppManager.swift in Sources */,
-				0D6C16C6CC8A3B021F4674DFEF855845 /* BurnerAuthorizationViewController.swift in Sources */,
-				EA7AB3742FABA2842D29CED59C97809C /* BurnerNavigationController.swift in Sources */,
-				49B47853344ECF39F9FCF2BB039EFD29 /* BurnerSDK-dummy.m in Sources */,
-				9B794A79F86610E4E0CB021270E2F9BD /* BurnerSDK.swift in Sources */,
-				1F216D98E44A5AA7293873C542C54057 /* ConnectedBurners.swift in Sources */,
-				0C8FADC40514998C71F8F1D6D2140927 /* Creds.swift in Sources */,
-				EEA152DF00AFE4585C85F326153CEF27 /* ExistingUserViewController.swift in Sources */,
-				E2B1B5897AA90BC6397536CEC8BD7F08 /* HttpManager.swift in Sources */,
-				2FD489809D83C7BD8B665009BAEB45A7 /* NumberTableViewCell.swift in Sources */,
-				AF507255F39CD6622B80D21CCA5404E8 /* OAuth.swift in Sources */,
-				B196BEC2BDB561A61F62AE28B9E44D6C /* PushAnimator.swift in Sources */,
-				312955710000D065313D82A5A54E5990 /* SlideAnimator.swift in Sources */,
-				A96EFF4D28A3AA3DD62501A2145DFC61 /* StringAdditions.swift in Sources */,
-				2FF157692C48E0AF6C48DF280E65D171 /* SuccessExistingViewController.swift in Sources */,
-				488B0AAA62FC0C60AA3539C4954F8A3D /* SuccessViewController.swift in Sources */,
-				85A9B647BAD56949411D37357080599F /* URLRequest+BodyContent.swift in Sources */,
-				354BFA14A678BD08D3589531BA053210 /* WebErrorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F712E9FC8F7B3DBECB4368E32A189EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA83DB55030B60A96DEFD0CBB981BA4 /* Burner.swift in Sources */,
+				A65AFBB22E976B615576849F97811406 /* BurnerAppManager.swift in Sources */,
+				95CE86F7E1D117F42FFC6154FC393FCD /* BurnerAuthorizationViewController.swift in Sources */,
+				FA746B0A7970C4928DCF930C1B483461 /* BurnerNavigationController.swift in Sources */,
+				E61766F75B4EC83A59096205F4B427D9 /* BurnerSDK-dummy.m in Sources */,
+				E7EDE2BAA14B735F669ADC9C82028C95 /* BurnerSDK.swift in Sources */,
+				09568B56CF0597AB3778925115525265 /* ConnectedBurners.swift in Sources */,
+				F5697F061F81490BF08D63D24252DA91 /* Creds.swift in Sources */,
+				4DE28CBC0750EA071D063EF81EF71875 /* ExistingUserViewController.swift in Sources */,
+				903B10E520C65D3A6F5A65BBD50FF547 /* HttpManager.swift in Sources */,
+				D5CD9DAAB9396E8B6D6275AC92885EF8 /* NumberTableViewCell.swift in Sources */,
+				422B5D86E57D1F4F3A43C2D3EF0A9371 /* OAuth.swift in Sources */,
+				CAD185D31DD54200A9234F446045915F /* PushAnimator.swift in Sources */,
+				A7033F016C1C6FA11E42E14C19BB06ED /* ResourceHelper.swift in Sources */,
+				C798FE8F8D51A3E73DDDD03D9EEFBB8F /* SlideAnimator.swift in Sources */,
+				A3DAD6F1B7AA34770DA43ED1919A0C55 /* StringAdditions.swift in Sources */,
+				B8F2BE942EAE752961B18E2F903B7219 /* SuccessExistingViewController.swift in Sources */,
+				CE4BBA118C068920C3077C4AEC10BFA9 /* SuccessViewController.swift in Sources */,
+				523218304A837A2CDAFEE33E9E2DD2F7 /* URLRequest+BodyContent.swift in Sources */,
+				D1F5DC578DE8E3D398E83F1F61155FD7 /* WebErrorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,15 +481,37 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E9FE4033F5894ACBFE795860F444F4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BurnerSDK-Resources";
+			target = 09442FC6894E02BB8DEAB7224E362662 /* BurnerSDK-Resources */;
+			targetProxy = 1CE0C7A975E9B16D7588E2D162A7EE7C /* PBXContainerItemProxy */;
+		};
 		FF1D987D15CE1D49313B3D73FDD0FEAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BurnerSDK;
-			target = 38DF015DF7F7A4A9075DAD39ADEF88E4 /* BurnerSDK */;
+			target = F13A32AF1019F8121D776DA240A4A2D0 /* BurnerSDK */;
 			targetProxy = EC9F3AB00ED1703C4BA438B76E6E5FFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1244AF93F25FF77DDDD3C1C56E1A18B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BurnerSDK";
+				INFOPLIST_FILE = "Target Support Files/BurnerSDK/ResourceBundle-Resources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		1A8452A88C7307040290F7E0969F49DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C95010D2CBBA125AD7871DF6C7727084 /* Pods-TestBurnerSDKApp.debug.xcconfig */;
@@ -563,9 +669,58 @@
 			};
 			name = Release;
 		};
-		7B0887C734CD0ECE226C10BE8672F662 /* Release */ = {
+		80EA68C54C94975ABAE5DA18C0B14FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE77B263152F56C4F80F551F51FD8E7A /* BurnerSDK.xcconfig */;
+			baseConfigurationReference = 7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BurnerSDK/BurnerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BurnerSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BurnerSDK/BurnerSDK.modulemap";
+				PRODUCT_MODULE_NAME = BurnerSDK;
+				PRODUCT_NAME = BurnerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0F281278E1E9790AF6D78664286F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BurnerSDK";
+				INFOPLIST_FILE = "Target Support Files/BurnerSDK/ResourceBundle-Resources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E327F4AAFD5AC40210E915049B6ABD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF2B5F1D6DC91D8CA33CDB135CB257 /* BurnerSDK.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -596,39 +751,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B76ADC225D8C21EB01193EA5A91AF024 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE77B263152F56C4F80F551F51FD8E7A /* BurnerSDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BurnerSDK/BurnerSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BurnerSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BurnerSDK/BurnerSDK.modulemap";
-				PRODUCT_MODULE_NAME = BurnerSDK;
-				PRODUCT_NAME = BurnerSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		EBA778203DBAEF8CE50A4B8F16CD2EFB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -669,6 +791,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02FE5AD98B3244653E9BFC27CAFA1773 /* Build configuration list for PBXNativeTarget "BurnerSDK-Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1244AF93F25FF77DDDD3C1C56E1A18B7 /* Debug */,
+				E0F281278E1E9790AF6D78664286F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -687,11 +818,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D00E43CE3325B4CA31B85A161ED4F41 /* Build configuration list for PBXNativeTarget "BurnerSDK" */ = {
+		8B4E51DD5779F691EE5A3067414A9DFD /* Build configuration list for PBXNativeTarget "BurnerSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B76ADC225D8C21EB01193EA5A91AF024 /* Debug */,
-				7B0887C734CD0ECE226C10BE8672F662 /* Release */,
+				80EA68C54C94975ABAE5DA18C0B14FFC /* Debug */,
+				E327F4AAFD5AC40210E915049B6ABD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
